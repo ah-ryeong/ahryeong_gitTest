@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <textarea cols="40" rows="5" style="resize: none;">
+            폼에 들어가는 value 영역
+        </textarea><br>
+        <input type="text" list="country">
+        <datalist id="country">
+            <option>대한민국</option>
+            <option>호주</option>
+            <option>미국</option>
+        </datalist><br>
+        <br>
+        <hr>
+        <br><!--다중체크-->
+        짜장면 <input type="checkbox" value="1">
+        탕수육 <input type="checkbox" value="2" checked>
+        만두 <input type="checkbox" value="3"><br>
+        <br>
+        <hr>
+        <br><!--단일체크-->
+        짜장면 <input type="radio" name="china">
+        탕수육 <input type="radio" name="china">
+        만두 <input type="radio" name="china"><br>
+        <br>
+        <hr>
+        <br>
+        <select name="china">
+            <option value="1">짜장면</option>
+            <option value="2">탕수육</option>
+            <option value="3">만두</option>
+        </select><br>
+        <br>
+        <hr>
+        <br>
+        글자색 선택 : <input type="color" value="#B2CCFF"
+        onchange="document.body.style.color=this.value"><br>
+        배경색 선택 : <input type="color" value="#ECEBFF"
+        onchange="document.body.style.background=this.value">
+        <!--색이 변경됐을때를 나타내는 이벤트-->
+    </form>
+</body>
+</html>
