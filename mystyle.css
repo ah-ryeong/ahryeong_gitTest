@@ -1,2 +1,9 @@
-p {color: coral;}
-h1 {background-color: aliceblue;}
+/*my style.css*/
+body {background-color: linen;
+    color: salmon;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;}
+
+h3 {text-align: center;
+    color: seagreen;}

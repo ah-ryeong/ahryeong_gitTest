@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입창 만들기</title>
+</head>
+<body>
+    <h3>회원가입</h3>
+    <p><label>이름 : <input name="name" placeholder="이름 입력" required></label></p>
+    <p><label>아이디 : <input name="id" placeholder="아이디 입력" required></label>
+            <input type="button" value="중복확인" required></p>
+    <p><label>비밀번호 : <input type="password" name="pwd" placeholder="비밀번호 입력" required></label></p>
+    <p><label>비밀번호 확인 : <input type="password" name="repwd" placeholder="비밀번호 확인" required></label></p>
+    <p><label>이메일 : <input type="email" name="email" placeholder="Ex>ds10123@naver.com" required></label></p>
+    <p><label>
+        이메일 수신동의 : <input type="radio" name="수신동의" value="yes">동의
+                         <input type="radio" name="수신동의" value="no">비동의</label></p>
+    <p><label>전화번호 : <select name="전화번호"required>
+              <option value="1">SKT</option>
+              <option value="2">KT</option>
+              <option value="3">LG</option>
+              <input type="text" name="number" placeholder="-빼고 숫자만 입력"></label>
+              </select></p>
+    <p><lable>정보이용 : <input type="checkbox" name="agree" value="1" required> 개인정보 이용
+              <input type="checkbox" value="2" name="agree" required> 개인정보 사용</lable></p>
+    <input type="submit" value="로그인" onclick="check()">
+</body>
+</html>
